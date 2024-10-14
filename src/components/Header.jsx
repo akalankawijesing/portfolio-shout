@@ -2,6 +2,7 @@ import react from 'react';
 import Navigation from './Navigation';
 import Search from './Search';
 import TabBox from './TabBox';
+import HeroMoreTabs from './HeroMoreTabs';
 
 function Header(){
 
@@ -19,6 +20,10 @@ function Header(){
           </div>
           <div className="mt-2">
           <TabBox/>
+          </div>
+
+          <div className="mt-4">
+          <HeroMoreTabs/>
           </div>
           </div>
         
